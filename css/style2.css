@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+
+
+body{
+    min-height: 100vh;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 400px;
+}
+
+.logo img{
+    width: 70px;
+}
+
+header{
+    padding: 15px 0;
+    background-color: #fff;
+    
+    
+}
+
+.menu{
+    width: 50%;
+    padding-top: 25px;
+    
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 30px;
+    border-radius: 5px 15px;
+    background: linear-gradient(to right, rgb(212, 137, 38), rgb(153, 98, 26));
+    padding: 10px;
+}
+
+.menu a:hover{
+    transform: scale(2,2);
+    transition: 0.5s;
+    transition-duration: 0.9s;
+    border: solid 2px #bfa0dc;
+    border-radius: 10px;
+}
+    
+    
+  
+
+.banner {
+    background-color: rgb(212, 137, 38);
+    color: white;
+    text-align: center;
+    padding: 100px;
+    background-image: url(/artistas/pilula_anita_malfatti_destaque-removebg-preview.png);
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px #858585, 5px 5px 5px #858585;
+}
+
+.banner p{
+    padding-top: 10px;
+
+}
+
+
+
+
+
+.primeiro-titulo{
+    padding-top: 25px;
+    margin: auto 100px 10px;
+    
+}
+
+.primeiro-titulo hr{
+    width: 250px;
+    border: 1px solid #000;
+    margin-left: 3px; 
+}
+
+
+.container-text{
+    width: 50%;
+    background-color: rgb(247, 247, 247);
+    border: solid 1px #ececec;
+    border-radius: 2px;
+    margin: auto 100px ;
+    padding: 10px;
+    
+}
+
+.segundo-titulo{
+    padding-top: 25px;
+    margin: auto 100px 10px;
+}
+
+.segundo-titulo hr{
+    width: 360px;
+    border: 1px solid #000;
+    margin-left: 3px;   
+}
+
+.container-second-text{
+    width: 50%;
+    background-color: rgb(247, 247, 247);
+    border: solid 1px #ececec;
+    border-radius: 2px;
+    margin: auto 100px ;
+    padding: 10px;
+}
+
+
+
+.container-second-text img{
+    width: 70%;
+    margin: auto 100px 10px;
+}
+
+.terceiro-titulo{
+    padding-top: 25px;
+    margin: auto 100px 10px;
+}
+
+.terceiro-titulo hr{
+    width: 640px;
+    border: 1px solid #000;
+    margin-left: 3px;
+}   
+
+.container-terceiro-text{
+    width: 50%;
+    background-color: rgb(247, 247, 247);
+    border: solid 1px #ececec;
+    border-radius: 2px;
+    margin: auto 100px ;
+    padding: 10px;
+}
+
+.container-terceiro-text ul li{
+    margin: 10px;
+}
+
+
+
+.quarto-titulo{
+    padding-top: 25px;
+    margin: auto 100px 10px;
+}
+
+.quarto-titulo hr{
+    width: 450px;
+    border: 1px solid #000;
+    margin-left: 3px;
+}   
+
+.container-quarto-text{
+    width: 50%;
+    background-color: rgb(247, 247, 247);
+    border: solid 1px #ececec;
+    border-radius: 2px;
+    margin: auto 100px ;
+    padding: 10px;
+}
+
+.container-quarto-text ol li{
+    margin: 10px;
+}
+
+
+.quinto-titulo{
+    padding-top: 25px;
+    margin: auto 100px 10px;
+}
+
+.quinto-titulo hr{
+    width: 330px;
+    border: 1px solid #000;
+    margin-left: 3px;
+}   
+
+.container-quinto-text{
+    width: 50%;
+    background-color: rgb(247, 247, 247);
+    border: solid 1px #ececec;
+    border-radius: 2px;
+    margin: auto 100px ;
+    padding: 10px;
+}
+
+.container-quinto-text ol li{
+    margin: 10px;
+}
+
+
+.container-right-second{
+    width: 450px;
+    height: 350px;
+    background-color: rgb(247, 247, 247);
+    border: solid 1px #ececec;
+    float: right;
+    margin: 0 60px;
+    
+    
+    
+}
+ 
+
+
+.container-right-img {
+    background: linear-gradient(to right, #d4d4d4, #ffffff);
+}
+
+.container-right-img img{
+    width: 115px;
+    height: 100%;
+    border-radius: 50%;
+    border: solid 2px rgb(92, 44, 0);
+    margin: 10px;
+    background-color: black;
+}
+
+.container-right-terceiro{
+    
+    width: 450px;
+    height: 430px;
+    background-color: rgb(247, 247, 247);
+    border: solid 1px #ececec;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.icones-img{
+   border: solid 1px black;
+
+}
+    
+
+.icones-img img{
+    background-size: cover;
+    background-position: center;
+    width: 400px;
+    margin: 25px 25px;
+}
+
+.icones-img h3{
+    font-style: italic;
+    font-size: 15px;
+    margin: 0px 110px;
+    padding: 10px;
+}
+
+.icones-img p{
+    padding: 10px;
+    margin: 0px 60px;
+    font-style: italic;
+    text-align: justify;
+}
+
+    
+
+
+   
+    
+  
+    
+    
+    
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color:  rgb(212, 137, 38) 
+    
+}
+ 
+
+.main-footer img{
+    
+    width: 40px;
+    margin: 10px 13px;
+}
+
+.main-footer .logos{
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.7);
+    margin: 25px;
+    width: 5%;
+  
+ 
+    
+}
+.main-footer .logos:hover{
+  transform: translate(10%, 5%);
+}
+
+.divisao{
+    background-color: #e9e9e9;
+    padding: 20px;
+    margin: 20px 0px 0px;
+    border: solid 1px #cecece;
+}
+    
+
+
+
+
+   
+
+
+    

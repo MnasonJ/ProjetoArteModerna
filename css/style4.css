@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 400px;
+}
+
+.logo img {
+    width: 70px;
+}
+
+header {
+    padding: 15px 0;
+}
+
+.menu {
+    width: 50%;
+    padding-top: 25px;
+
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 30px;
+    border-radius: 5px 15px;
+    background: linear-gradient(to right, #008B8B, #006363);
+    padding: 10px;
+    
+}
+
+.menu a:hover {
+    transform: scale(2, 2);
+    transition: 0.5s;
+    transition-duration: 0.9s;
+    border: solid 2px #bfa0dc;
+    border-radius: 10px;
+}
+
+.titulo-contact{
+    background: linear-gradient(to right, #006363, #004444);
+    width: 100%;
+    height: 300px;
+}
+
+.fale-conosco{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 50px;
+    padding: 100px;
+   
+}
+
+.icons-contato{
+    display: flex;
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+}
+
+.icons-contato .icones{
+    display: block;
+    background: linear-gradient(to right, #ffffff, #dfdfdf);
+    border-radius: 5px;
+    border: solid 1px #000000;
+    margin: 10px;
+    box-shadow: 5px 5px 5px 5px #c7c7c7;
+}
+
+.icones img{
+    max-width: 15%;
+    float: left;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.icones h3{
+    font-size: 17px;
+    padding-top: 30px;
+    
+}
+
+.icones p{
+    
+    padding-top: 15px;
+    font-style: italic;
+}
+
+
+.icone-email img{
+    position: absolute;
+    border: solid 1px rgb(131, 131, 131);
+    border-radius: 15px;
+    padding: 2px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    max-width: 30%;
+    margin: 50px 75px;
+}
+
+
+
+.icone-telefone img{
+    position: absolute;
+    border: solid 1px rgb(131, 131, 131);
+    border-radius: 15px;
+    padding: 2px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+    max-width: 30%;
+    margin: 50px 75px;
+}
+    
+  
+
+
+
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background: linear-gradient(to right, #006363, #004444);
+    
+}
+ 
+
+.main-footer img{
+    
+    width: 40px;
+    margin: 10px 13px;
+}
+
+.main-footer .logos{
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.7);
+    margin: 25px;
+    width: 5%;
+  
+ 
+    
+}
+
+.main-footer .logos:hover{
+  transform: translate(10%, 5%);
+}
+
+.divisao{
+    background-color: #fafafa;
+    padding: 20px;
+    margin: 0px 0px 0px;
+    border: solid 1px #cecece;
+}
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
